@@ -13,6 +13,12 @@
         <lombok.version>1.16.18</lombok.version>
     </properties>
 
+    <modules>
+        <module>client</module>
+        <module>commondomain</module>
+        <module>server</module>
+    </modules>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
